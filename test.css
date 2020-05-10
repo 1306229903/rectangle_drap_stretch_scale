@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    position: relative;
+}
+
+#rec_tangle {
+    border: 1px solid #000;
+    position: absolute;
+
+}
+
+.small-rect {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    z-index: 2;
+    position: absolute;
+    background-color: #fff
+}
+
+#small_rect_left_top {
+    left: -5px;
+    top: -5px
+}
+
+#small_rect_right_top {
+    right: -5px;
+    top: -5px
+}
+
+#small_rect_left_bottom {
+    left: -5px;
+    bottom: -5px
+}
+
+#small_rect_right_bottom {
+    right: -5px;
+    bottom: -5px
+}
